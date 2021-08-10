@@ -1,0 +1,11 @@
+$orange: rgba(239, 90, 40, 1) !important;
+
+$lightOrange: rgba(239, 150, 40, 1) !important;
+$dark: #343a40 !important;
+
+.bg-orange {
+    background-color: $orange;
+}
+.text-orange {
+    color: $orange;
+}

@@ -1,0 +1,48 @@
+@import '../variables/variables';
+
+.nav-bar {
+    .row {
+        .nav-bar-brand-container {
+            .row {
+                .slanted {
+                    width: 0;
+                    height: 0;
+                    border-top: 80px solid $dark;
+                    border-right: 100px solid transparent;
+                }
+            }
+        }
+        .nav-bar-nav-container {
+            .nav-bar-nav {
+                list-style-type: none;
+
+                .nav-bar-item {
+                    height: 100% !important;
+                    display: flex;
+                    transition: all 0.2s ease-in-out;
+                    align-items: center;
+                    border-top: 3px solid rgba(0, 0, 0, 0);
+                    a {
+                        display: block;
+                        text-decoration: none !important;
+                        font-size: 16px;
+                        padding: 10px;
+                        color: white;
+                    }
+                }
+                .nav-bar-item:hover {
+                    background-color: $lightOrange;
+                    border-top: 3px solid $dark;
+                }
+            }
+        }
+    }
+}
+.bg-main {
+    background-image: url(../img/b1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-dark-transparent {
+    background-color: rgba(32, 32, 32, 0.6) !important;
+}

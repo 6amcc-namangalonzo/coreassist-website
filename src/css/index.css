@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100vh !important;
+  margin: 0 !important;
+}
+
+.bg-orange {
+  background-color: #ef5a28 !important;
+}
+
+.text-orange {
+  color: #ef5a28 !important;
+}
+
+.bg-orange {
+  background-color: #ef5a28 !important;
+}
+
+.text-orange {
+  color: #ef5a28 !important;
+}
+
+.nav-bar .row .nav-bar-brand-container .row .slanted {
+  width: 0;
+  height: 0;
+  border-top: 80px solid #343a40 !important;
+  border-right: 100px solid transparent;
+}
+
+.nav-bar .row .nav-bar-nav-container .nav-bar-nav {
+  list-style-type: none;
+}
+
+.nav-bar .row .nav-bar-nav-container .nav-bar-nav .nav-bar-item {
+  height: 100% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 3px solid rgba(0, 0, 0, 0);
+}
+
+.nav-bar .row .nav-bar-nav-container .nav-bar-nav .nav-bar-item a {
+  display: block;
+  text-decoration: none !important;
+  font-size: 16px;
+  padding: 10px;
+  color: white;
+}
+
+.nav-bar .row .nav-bar-nav-container .nav-bar-nav .nav-bar-item:hover {
+  background-color: #ef9628 !important;
+  border-top: 3px solid #343a40 !important;
+}
+
+.bg-main {
+  background-image: url(../img/b1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-dark-transparent {
+  background-color: rgba(32, 32, 32, 0.6) !important;
+}
+/*# sourceMappingURL=index.css.map */
