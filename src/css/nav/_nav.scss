@@ -30,7 +30,8 @@
                         color: white;
                     }
                 }
-                .nav-bar-item:hover {
+                .nav-bar-item:hover,
+                .actives {
                     background-color: $lightOrange;
                     border-top: 3px solid $dark;
                 }

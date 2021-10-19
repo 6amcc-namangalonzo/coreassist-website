@@ -52,7 +52,8 @@ body {
   color: white;
 }
 
-.nav-bar .row .nav-bar-nav-container .nav-bar-nav .nav-bar-item:hover {
+.nav-bar .row .nav-bar-nav-container .nav-bar-nav .nav-bar-item:hover,
+.nav-bar .row .nav-bar-nav-container .nav-bar-nav .actives {
   background-color: #ef9628 !important;
   border-top: 3px solid #343a40 !important;
 }
