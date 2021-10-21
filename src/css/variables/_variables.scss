@@ -1,4 +1,6 @@
-$orange: rgba(239, 90, 40, 1) !important;
+$orange: rgb(238, 92, 43) !important;
+$hex-orange: #ee5c2b;
+$hex-orange-hover: #ff7c4f;
 
 $lightOrange: rgba(239, 150, 40, 1) !important;
 $dark: #343a40 !important;
@@ -8,4 +10,12 @@ $dark: #343a40 !important;
 }
 .text-orange {
     color: $orange;
+}
+.btn-orange {
+    background-color: $hex-orange !important;
+    color: white;
+}
+.btn-orange:hover {
+    background-color: $hex-orange-hover !important;
+    color: white;
 }

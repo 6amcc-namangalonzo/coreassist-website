@@ -5,3 +5,11 @@ body {
 }
 @import './variables/variables';
 @import './nav/_nav';
+.bg-main {
+    background-image: url(../img/b1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-dark-transparent {
+    background-color: rgba(32, 32, 32, 0.6) !important;
+}

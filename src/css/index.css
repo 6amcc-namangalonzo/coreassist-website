@@ -5,19 +5,39 @@ body {
 }
 
 .bg-orange {
-  background-color: #ef5a28 !important;
+  background-color: #ee5c2b !important;
 }
 
 .text-orange {
-  color: #ef5a28 !important;
+  color: #ee5c2b !important;
+}
+
+.btn-orange {
+  background-color: #ee5c2b !important;
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: #ff7c4f !important;
+  color: white;
 }
 
 .bg-orange {
-  background-color: #ef5a28 !important;
+  background-color: #ee5c2b !important;
 }
 
 .text-orange {
-  color: #ef5a28 !important;
+  color: #ee5c2b !important;
+}
+
+.btn-orange {
+  background-color: #ee5c2b !important;
+  color: white;
+}
+
+.btn-orange:hover {
+  background-color: #ff7c4f !important;
+  color: white;
 }
 
 .nav-bar .row .nav-bar-brand-container .row .slanted {
@@ -56,6 +76,16 @@ body {
 .nav-bar .row .nav-bar-nav-container .nav-bar-nav .actives {
   background-color: #ef9628 !important;
   border-top: 3px solid #343a40 !important;
+}
+
+.bg-main {
+  background-image: url(../img/b1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bg-dark-transparent {
+  background-color: rgba(32, 32, 32, 0.6) !important;
 }
 
 .bg-main {
